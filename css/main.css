@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    background-color: #F2F2F2;
+    color: #3766A4;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+p {
+    margin: 0;  
+  }
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.top-section {
+    background-color: #CDE5FB;
+}
+
+.logo {
+    padding-top: 50px;
+}
+
+button {
+    font-weight: bold;
+}
+
+.btn-icon {
+    color: #3766A4;
+    border: none;
+    outline: 0;
+}
+
+.informations {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    align-items: flex-end;; 
+}
+
+.img-info {
+    margin-right: 10px;
+}
+
+.wrraper {
+    padding-top: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+}
+
+.input {
+    width: 830px;
+    height: 40px;
+	border: 2px solid #3766A4;
+	font-size: 15px;	
+	border-radius: 2px;
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    background-color: #3766A4;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+hr {
+    height: 5px;
+    background-color:#CDE5FB;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.btn1:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.btn1 {
+    background-color: #3766A4;
+    color: #ffffff;
+    display: block;
+    width: 150px;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.img-org {
+    display: block;
+    padding-right: 150px;
+}
+
+.h {
+    margin-top: 80px;
+}
+
+.p-cart {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offer {
+    display: flex;
+    align-items: center; 
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: 250px;
+    text-align: center;
+    background: #ffffff;
+    padding-top: 40px;
+    border: 2px solid #CDE5FB;
+    margin-bottom: 50px;
+ }
+
+ .product-list {
+    padding: 20px 0;
+    color: #3766A4;
+ }
+
+ .product-list p {
+    font-weight: 400;
+    margin: 0 0 30px 0;
+ }
+
+ .price {
+    display: block;
+    margin-bottom: 12px;
+ }
+
+ .button {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+    color: #3766A4;
+ }
+
+ .button:hover {
+    background: #CDE5FB;
+ }
+
+
+ .wrraper-info {
+    padding-top: 20px;
+ }
+
+ hr.gorizont {
+    margin-top: 30px;
+ }
+
+ .o-nas {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 15px;
+ }
+
+ .footer-wrraper {
+    display: flex;
+    justify-content: right;
+    padding-bottom: 0;
+ }
+
+ .footer-info {
+    margin-right: 80px;
+ }
+
+ .information {
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+
+ h3 {
+    font-size: 26px;
+ }
+
+.hidden {
+    display: none;
+}
+
+.fade-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(55, 102, 164, 0.69);
+}
+
+.modal-window {
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 3px solid #3766A4;
+    border-radius: 6px;
+    width: 60%;
+} 
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    empty-cells: hide;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th, td {
+    border-top: 1px solid #9bc1f3;
+    padding: 20px;
+}
+
+.img-card {
+    width: 80px;
+}
+
+.form-basket input, .btn-modal {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 40px;
+}
+
+.btn-close {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-close button {
+    height: 40px;
+    width: 45%;
+}
+
+[data-modal-button], [data-modal-close] {
+    cursor: pointer;
+}
